@@ -9,17 +9,15 @@ package Model;
  *
  * @author ALUMNEDAM
  */
-public class Curs {
-    
-    String id;
-    String nom;
+public class Cicle {
 
-    public Curs(String id, String nom) {
+    public Cicle(String id, String nom, String grau) {
         this.id = id;
         this.nom = nom;
+        this.grau = grau;
     }
 
-    public Curs() {
+    public Cicle() {
     }
 
     public String getId() {
@@ -37,7 +35,19 @@ public class Curs {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
+    public String getGrau() {
+        return grau;
+    }
+
+    public void setGrau(String grau) {
+        this.grau = grau;
+    }
     
     
+    
+    String id;
+    String nom;
+    String grau;
     
 }

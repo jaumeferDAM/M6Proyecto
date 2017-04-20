@@ -11,7 +11,8 @@ import java.util.ArrayList;
 
 public class GENERICODAOImpl<T, ID extends Serializable> implements GENERICODAO<T, ID> {
     
-    SessionFactory sessionFactory;
+    //SessionFactory sessionFactory;
+    
   
     private final static Logger LOGGER = Logger.getLogger(GenericDAOImplHibernate.class.getName());
 
@@ -22,7 +23,10 @@ public class GENERICODAOImpl<T, ID extends Serializable> implements GENERICODAO<
 
     @Override
     public void insertar(T entity) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try{
+            em = getEntityManager();
+            em.getTransanction();
+        }
     }
 
     @Override
