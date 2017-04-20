@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Model;
+package Controlador;
 
 /**
  *
  * @author ALUMNEDAM
  */
-public class Modul {
+public class AlumneDAO {
     
 }

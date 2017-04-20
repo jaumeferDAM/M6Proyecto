@@ -9,6 +9,6 @@ package Model;
  *
  * @author ALUMNEDAM
  */
-public class Modul {
+public class Alumne {
     
 }
