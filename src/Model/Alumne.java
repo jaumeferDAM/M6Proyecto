@@ -9,7 +9,9 @@ package Model;
  *
  * @author ALUMNEDAM
  */
+@Entity
 public class Alumne {
+    @Id
     String nif;
     String nom;
     String cognom;
