@@ -13,7 +13,7 @@ public class GENERICODAOImpl<T, ID extends Serializable> implements GENERICODAO<
     
     SessionFactory sessionFactory;
   
-    private final static Logger LOGGER = Logger.getLogger(GenericDAOImplHibernate.class.getName());
+    private final static Logger LOGGER = Logger.getLogger(GENERICODAOImpl.class.getName());
 
     @Override
     public T crear() {
